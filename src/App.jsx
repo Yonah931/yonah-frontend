@@ -13,7 +13,7 @@ const agents = [
   { id: 'dataanalyst', name: 'DataAnalyst', role: 'تحليل البيانات', icon: BarChart3, color: '#fb923c', apiName: 'DataAnalyst' },
 ];
 
-const API_URL = '/api';
+const API_URL = 'https://star-child-three.vercel.app';
 
 function App() {
   const [time, setTime] = useState(new Date());
